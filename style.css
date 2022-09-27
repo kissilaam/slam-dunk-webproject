@@ -14,16 +14,23 @@ body {
 }
 
 .container {
+	display: flex;
+	flex-direction: column;
+}
+
+.divider {
+	height: 1px;
+	background: linear-gradient(
+		90deg,
+		rgba(242, 121, 67, 1) 30%,
+		rgba(0, 0, 0, 1) 50%,
+		rgba(242, 121, 67, 1) 70%
+	);
+}
+
+.section {
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
-}
-
-.grid {
-	display: grid;
-	gap: 2rem;
-}
-
-section {
 	padding: 0.5rem;
 }
 
@@ -33,11 +40,7 @@ ul {
 
 a {
 	text-decoration: none;
-}
-
-img {
-	width: 100%;
-	height: auto;
+	font-size: 1.15rem;
 }
 
 nav {
@@ -45,6 +48,8 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin: 0 2rem;
+	margin-bottom: 0.5rem;
 }
 
 #logo {
@@ -55,7 +60,7 @@ nav {
 .menu {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 2rem;
+	//margin: 0 2rem;
 }
 
 nav ul li {
@@ -66,4 +71,12 @@ nav ul li {
 nav li a {
 	justify-content: space-between;
 	padding: 0 0.5rem;
+}
+
+/* HOME BANNER */
+
+.home-banner {
+	width: 100%;
+	height: auto;
+	margin-bottom: -3px;
 }
