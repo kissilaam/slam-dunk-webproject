@@ -31,7 +31,8 @@ body {
 	);
 }
 
-.section {
+.section,
+.swiper {
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 	padding: 0.5rem;
@@ -88,17 +89,20 @@ h1 {
 	font-size: 1.7em;
 }
 
-#about {
+#about,
+#main-characters {
 	padding: 1rem;
 	text-align: justify;
 }
 
-.about-text {
+.about-text,
+.bio-text {
 	padding: 1rem;
 	font-size: 1.2em;
 }
 
-.about-text p + p {
+.about-text p + p,
+.bio p + p {
 	margin-top: 15px;
 }
 
@@ -111,18 +115,24 @@ h1 {
 	width: 100%;
 }
 
+.swiper-slide {
+	display: flex;
+	width: 50%;
+}
+
 .bio {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 50%;
+	margin-left: 2rem;
 }
 
 .gallery {
 	display: flex;
-	width: 50%;
 	justify-content: center;
 	align-items: center;
+	margin-right: 2.3rem;
+	padding: 1rem;
 }
 
 .character-img {

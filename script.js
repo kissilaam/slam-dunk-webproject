@@ -1,5 +1,5 @@
 let imgIndex = 0
-getImage()
+let characterIndex = 0
 
 function getImage() {
 	let charImg = document.getElementsByClassName('character-img')
@@ -9,5 +9,5 @@ function getImage() {
 	imgIndex++
 	if (imgIndex > charImg.length) imgIndex = 1
 	charImg[imgIndex - 1].style.display = 'block'
-	setTimeout(getImage, 3000)
+	setTimeout(getImage, 1500)
 }
