@@ -90,7 +90,8 @@ h1 {
 }
 
 #about,
-#main-characters {
+#main-characters,
+#secondary-characters {
 	padding: 1rem;
 	text-align: justify;
 }
@@ -138,4 +139,9 @@ h1 {
 .character-img {
 	max-height: 23rem;
 	width: auto;
+}
+
+.try {
+	position: absolute;
+	transform: translate (-50%, -50%);
 }
