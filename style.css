@@ -91,7 +91,8 @@ h1 {
 
 #about,
 #main-characters,
-#secondary-characters {
+#secondary-characters,
+#rival-teams {
 	padding: 1rem;
 	text-align: justify;
 }
